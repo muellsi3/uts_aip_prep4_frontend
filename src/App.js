@@ -61,7 +61,6 @@ class App extends Component {
         Handle submit button event
     **/
     handleSubmit(event) {
-        alert('Tobias smells like a bad fart');
         alert(this.movie.title);
         event.preventDefault();
     }  
@@ -74,7 +73,7 @@ class App extends Component {
           <h2>Welcome to React</h2>
         </div>
         <p className="App-intro">
-            <b>Tobias can suck my lazy ass.</b><br></br><br></br>
+            <b>This is a very serious project assignment.</b><br></br><br></br>
         </p>
         <form onSubmit={this.handleSubmit}>
         
